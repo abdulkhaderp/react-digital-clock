@@ -4,26 +4,51 @@ A simple digital clock implementation in React.
 # Installation
 npm install react-digital-clock
 
-# Usage
-1. Import component : import Clock from 'react-digital-clock';
-2. Use component    :  '<Clock />'
-3. Done!
+## Usage
+1. Import component : 
 
-# Optional Props
+       import Clock from 'react-digital-clock';
+2. Use component    :  
 
-1. locale - To pass the locale 
-            #### Eg : <Clock locale={'ar-AE'} />
+            <Clock />
 
-2. runner - Flag to instruct whether clock need to run or display the static time when the component renders.
-            Default : true
-            Eg: <Clock runner={false} />
-
-3. hour12 - Flag to switch 12 Hour/ 24 Hour format.
-            Default : true
-            Eg : <Clock hour12={false} />
+Optional Props
             
-4. format - To specify the display format of time.
-            Default : 'hh-mm-ss'
-            Eg : <Clock format={'hh-mm'} />
-            
+ ####locale
+
+ - Default: []  
+ - Expected: true or false  
+ - Function: To pass locale
+ ##
+                        <Clock runner={false} />
+ 
+  ####runner
   
+ - Default: true  
+ - Expected: true or false  
+ - Function: Flag to instruct whether clock need to run or display the static time when the component renders.
+ - Example 
+  ##     
+                        <Clock runner={false} />
+                        
+ ####hour12
+  
+ - Default: true  
+ - Expected: true or false  
+ - Function: Flag to switch 12 Hour/ 24 Hour format.
+ - Example 
+  ##       
+                        <Clock hour12={false} />                       
+                        
+  ####format
+  
+ - Default: 'hh-mm-ss'  
+ - Expected: 'hh' / 'hh-mm' / 'hh-mm-ss'  
+ - Function: To specify the display format of time.
+ - Example 
+  ##      
+                        <Clock format={'hh-mm'} />                       
+                              
+ 
+ 
+
