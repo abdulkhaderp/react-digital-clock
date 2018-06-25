@@ -22,15 +22,7 @@ Optional Props
  ##
                         <Clock runner={false} />
  
-  ####runner
-  
- - Default: true  
- - Expected: true or false  
- - Function: Flag to instruct whether clock need to run or display the static time when the component renders.
- - Example 
-  ##     
-                        <Clock runner={false} />
-                        
+                         
  ####hour12
   
  - Default: true  
