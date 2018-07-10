@@ -1,6 +1,9 @@
 # react-digital-clock
 A simple digital clock implementation in React.
 
+#  Online Demo
+http://abdulkhaderp.github.io/clockDemo/index.html
+
 # Installation
 npm install react-digital-clock
 
@@ -20,7 +23,7 @@ Optional Props
  - Expected: true or false  
  - Function: To pass locale
  ##
-                        <Clock runner={false} />
+                        <Clock locale={'ar-AE'} />
  
                          
  ####hour12
