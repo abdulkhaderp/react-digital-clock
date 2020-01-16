@@ -32,6 +32,12 @@ class Clock extends Component{
         minute='2-digit';
         second='2-digit';
         break;
+        case 'mm':
+        minute = '2-digit';
+        break;
+        case 'ss':
+        second = '2-digit';
+        break;
         default:
         hour='2-digit';
         minute='2-digit';
