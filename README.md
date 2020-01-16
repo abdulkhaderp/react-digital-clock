@@ -38,7 +38,7 @@ Optional Props
   ####format
   
  - Default: 'hh-mm-ss'  
- - Expected: 'hh' / 'hh-mm' / 'hh-mm-ss'  
+ - Expected: 'hh' / 'hh-mm' / 'hh-mm-ss' / 'mm' / 'ss' 
  - Function: To specify the display format of time.
  - Example 
   ##      
